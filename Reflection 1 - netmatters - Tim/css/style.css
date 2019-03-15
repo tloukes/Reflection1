@@ -1,0 +1,1980 @@
+/*=================================
+        Fonts
+=================================*/
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #333645;
+}
+
+/*=================================
+        Colours
+=================================
+white: #ffffff;
+
+Brand greys
+nm-bg-grey: #333645;
+nm-fg-grey: #3c3f4d;
+
+Side menu greys
+sm-title: #333645;
+sm-content: #262934;
+
+Services
+web-design-purple: #926fb1;
+web-design-purple-banner: #79539a;
+it-support-blue: #4183d7;
+it-support-blue-banner: #286abd;
+telecoms-red: #d64541;
+telecoms-red-banner: #bc2c28;
+bespoke-slate: #67809f;
+bespoke-slate-banner: #526781;
+digital-mark-green: #2ecc71;
+digital-mark-green-banner: #25a25a;
+cyber-sec-pink: #f62459;
+cyber-sec-pink-banner: #de093f;
+
+Others
+contact-grey: #999aa2;
+social-media-bg: #262934;
+fb-blue-hover: #4867aa;
+twit-blue-hover: #1da1f2;
+link-blue-hover: #0077b5;
+
+nav-button-b-left: #262833;
+nav-button-b-right: #474a58;
+*/
+/*=================================
+        Base Styles
+=================================*/
+
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+
+.btn {
+  min-height: 50px;
+  width: 130px;
+  text-transform: uppercase;
+  background-color: #999aa2;
+  text-align: center;
+  color: #fff;
+  border-radius: 5%;
+  margin: 0 5px;
+  padding-top: 10px;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+/*=================================
+        Header
+=================================*/
+
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+
+
+.title-bar {
+  background-color: #fff;
+}
+
+.title-wrap {
+  height: 110px;
+  width: 1260px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.nm-logo {
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+.btn-wrap {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.support {
+  background-color: #4183d7;
+}
+
+.support:hover {
+  background-color: #286abd;
+  color: #fff;
+  text-decoration: none;
+}
+
+#support-text {
+  font-size: 18px;
+  padding: 5px;
+  position: relative;
+}
+
+#contact-text {
+  font-size: 18px;
+  padding: 6px;
+  position: relative;
+}
+
+.contact {
+  background-color: #999aa2;
+}
+
+.contact:hover {
+  background-color: #85868c;
+  color: #fff;
+  text-decoration: none;
+}
+
+.support,
+.contact {
+  width: 150px;
+  height: 56px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+.btn-title {
+  font-size: 1.8rem;
+}
+
+.min-icon {
+  display: none;
+}
+
+.menu {
+  height: 56px;
+  width: 60px;
+  background-color: #22242e;
+}
+
+.men-title {
+  font-size: 1.1rem;
+}
+
+.fa-bars {
+  width: 20px;
+}
+
+ header .menu:hover {
+  color:#fff;
+  background-color: #22242e;
+}
+
+header a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+/*=================================
+        Nav Bar
+=================================*/
+.nav-bg {
+  background-color: #333645;
+  border-bottom: 1px solid #989aa1;
+  width: 100%;
+  height: 100px;
+}
+
+.nav-wrap {
+  width: 1260px;
+  margin: 0 auto;
+}
+
+ul {
+  padding: 0;
+}
+
+.nav-list {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.nav-end-l {
+  border-right: 1px solid #474a58;
+}
+
+.nav-end-r {
+  border-left: 1px solid #262833;
+}
+
+.nav-btn {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: .9rem;
+  flex-grow: 1;
+  border-left: 1px solid #262833;
+  border-right: 1px solid #474a58;
+}
+
+.icon-w {
+  color: #926fb1;
+  padding-bottom: 5px;
+}
+
+.icon-it {
+  color: #4183d7;
+  padding-bottom: 5px;
+}
+
+.icon-tel {
+  color: #d64541;
+  padding-bottom: 5px;
+}
+
+.icon-sf {
+  color: #67809f;
+  padding-bottom: 5px;
+}
+
+.icon-dig {
+  color: #2ecc71;
+  font-size: 1.8rem;
+  padding-bottom: 5px;
+}
+
+.icon-cy {
+  color: #f62459;
+  padding-bottom: 5px;
+}
+
+.nav-title {
+  font-size: 1.8rem;
+  font-weight: 400;
+  position: relative;
+  bottom: 0.05rem;
+}
+
+.banner  ul {
+  height: 45px;
+  width: 1260px;
+  margin: 0 auto;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+}
+
+.banner>div>ul>li{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+/* Web banner */
+.banner {
+  left:0;
+  width: 100vw;
+}
+
+.banner-web {
+  background-color: #79539a;
+  display: none;
+}
+
+.nav-btn-web:hover .banner-web {
+  display: block;
+  position: absolute;
+  top: 209px;
+}
+
+/* IT support banner */
+
+.banner-it {
+  background-color: #286abd;
+  display: none;
+}
+
+.nav-btn-it:hover .banner-it {
+  display: block;
+  position: absolute;
+  top: 209px;
+
+}
+
+/* Telecoms banner */
+
+.banner-tel {
+  width: 100%;
+  background-color: #bc2c28;
+  height: 45px;
+  display: none;
+}
+
+.nav-btn-tel:hover .banner-tel {
+  display: block;
+  position: absolute;
+  top: 209px;
+}
+
+/* Software banner */
+
+.banner-sf {
+  width: 100%;
+  background-color: #526781;
+  height: 45px;
+  display: none;
+}
+
+.nav-btn-sf:hover .banner-sf {
+  display: block;
+  position: absolute;
+  top: 209px;
+}
+
+/* Digital marketing banner */
+
+.banner-dig {
+  width: 100%;
+  background-color: #25a25a;
+  height: 45px;
+  display: none;
+}
+
+.nav-btn-dig:hover .banner-dig {
+  display: block;
+  position: absolute;
+  top: 209px;
+}
+
+/* Cyber security banner */
+
+.banner-cy {
+  width: 100%;
+  background-color: #de093f;
+  height: 45px;
+  display: none;
+}
+
+.nav-btn-cy:hover .banner-cy {
+  display: block;
+  position: absolute;
+  top: 209px;
+}
+
+
+.nav-btn a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Nav-bar Hover states */
+
+.nav-btn-web:hover {
+  background-color: #926fb1;
+  color: #fff;
+}
+
+.nav-btn-web:hover .icon-w {
+  color: #fff;
+}
+
+.nav-btn-it:hover {
+  background-color: #4183d7;
+  color: #fff;
+}
+
+.nav-btn-it:hover .icon-it {
+  color: #fff;
+}
+
+.nav-btn-tel:hover {
+  background-color: #d64541;
+  color: #fff;
+}
+
+.nav-btn-tel:hover .icon-tel {
+  color: #fff;
+}
+
+.nav-btn-sf:hover {
+  background-color: #67809f;
+  color: #fff;
+}
+
+.nav-btn-sf:hover .icon-sf {
+  color: #fff;
+}
+
+.nav-btn-dig:hover {
+  background-color: #2ecc71;
+  color: #fff;
+}
+
+.nav-btn-dig:hover .icon-dig {
+  color: #fff;
+}
+
+.nav-btn-cy:hover {
+  background-color: #f62459;
+  color: #fff;
+}
+
+.nav-btn-cy:hover .icon-cy {
+  color: #fff;
+}
+
+/*=================================
+        Main content - Image Carousel
+=================================*/
+
+.img-carousel {
+  width: 100%;
+  background-color: grey;
+  background: url(https://placeimg.com/640/640/tech) no-repeat center / cover;
+}
+
+.img-carousel-wrapper {
+  margin: auto;
+  width: 1260px;
+  height: 680px;
+
+}
+
+.cy-synopsis-container {
+  height: auto;
+  position: relative;
+  top: 260px;
+  margin-left: 30px;
+
+
+}
+
+.cy-copy-head {
+  font-size: 45px;
+  color: #fff;
+  line-height: 40px;
+}
+
+.cy-copy {
+  color: #fff;
+  position: relative;;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.img-carousel .btn {
+  width: 222px;
+  height: 62px;
+  position: absolute;
+  top: 150px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.more-text {
+  padding: 7px;
+  font-size: 18px;
+}
+
+.arrow {
+  padding-top: 7px;
+}
+
+.img-carousel a {
+  color: white;
+}
+
+.img-carousel .btn:hover {
+  background-color: #e80a42;
+  color: #fff;
+}
+
+/*=================================
+        Secondary content - Cards
+=================================*/
+
+.card-wrap a {
+  text-decoration: none;
+}
+
+.card-bg {
+  width: 100%;
+  height: auto;
+}
+
+.card-wrap {
+  width: 1260px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 30px 10px 40px;
+}
+
+/* .card-wrap-bottom {
+  width: 80%;
+  max-width: 1260px;
+  margin:auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  padding: 10px 10px 40px;
+  flex: 1 1 auto;
+} */
+
+
+.cardlink {
+  color: #333645;
+  height: 300px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-shadow: 0 0 25px 6px #f2f2f2;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.card-cont .btn {
+  margin: 5px;
+}
+
+.web-link {
+  flex: 45%;
+}
+
+.it-link {
+  flex: 45%;
+}
+
+.tel-link {
+  flex: 20%;
+}
+
+.sf-link {
+  flex: 20%;
+}
+
+.dig-link {
+  flex: 20%;
+}
+
+.cy-link {
+  flex: 20%;
+}
+
+.card-cont {
+  padding: 20px;
+  align-self: center;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 25px;
+}
+
+.card-cont h4 {
+  align-self: center;
+}
+
+
+.card-cont p {
+  text-align: center;
+  font-size: 13px;
+}
+
+.line {
+  width: 25px;
+  height: 3px;
+  background-color: #333645;
+  align-self: center;
+  margin-bottom: 10px;
+}
+
+.card-cont .btn-read {
+  align-self: center;
+  position: relative;
+  font-size: 18px;
+}
+
+
+.icon-bg {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  margin: 10px;
+}
+
+.icon-bg-web {
+  background-color: #926fb1;
+  align-self: center;
+}
+
+.icon-bg-it {
+  background-color: #4183d7;
+  align-self: center;
+}
+
+.icon-bg-tel {
+  background-color: #d64541;
+  align-self: center;
+}
+
+.icon-bg-sf {
+  background-color: #67809f;
+  align-self: center;
+}
+
+.icon-bg-cy {
+  background-color: #f62459;
+  align-self: center;
+}
+
+.icon-bg-dig {
+  background-color: #2ecc71;
+  align-self: center;
+}
+
+.btn-web {
+  background-color: #926fb1;
+  bottom: -20px;
+}
+
+.btn-it {
+  background-color: #4183d7;
+  bottom: -20px;
+}
+
+.btn-tel {
+  background-color: #d64541;
+}
+
+.btn-sf {
+  background-color: #67809f;
+}
+
+.btn-dig {
+  background-color: #2ecc71;
+}
+
+.btn-cy {
+  background-color: #f62459;
+  bottom: -20px;
+}
+
+/* Hover states */
+
+
+
+/* Web */
+.web-link:hover {
+  background-color: #926fb1;
+  color: #fff;
+}
+.web-link:hover .icon-bg-web {
+  background-color: #fff;
+}
+.web-link:hover .fa-code {
+  color: #926fb1;
+}
+.web-link:hover .btn-web {
+  background: #fff;
+  color: #926fb1;
+}
+.cardlink:hover {
+  color: #fff;
+}
+.cardlink:hover .line {
+  background-color: #fff;
+}
+
+/* IT Support */
+.it-link:hover {
+  background-color: #4183d7;
+  color: #fff;
+}
+.it-link:hover .icon-bg-it {
+  background-color: #fff;
+}
+.it-link:hover .it-icon {
+  color: #4183d7;
+}
+.it-link:hover .btn-it {
+  background: #fff;
+  color: #926fb1;
+}
+.card:hover .it-link {
+  color: #fff;
+}
+
+/* Telecoms Services */
+.tel-link:hover {
+  background-color: #d64541;
+  color: #fff;
+}
+.tel-link:hover .icon-bg-tel {
+  background-color: #fff;
+}
+.tel-link:hover .tel-icon {
+  color: #d64541;
+}
+.tel-link:hover .btn-tel {
+  background: #fff;
+  color: #d64541;
+}
+.card:hover .tel-link {
+  color: #fff;
+}
+
+/* Bespoke Software */
+.sf-link:hover {
+  background-color: #67809f;
+  color: #fff;
+}
+.sf-link:hover .icon-bg-sf {
+  background-color: #fff;
+}
+.sf-link:hover .sf-icon {
+  color: #67809f;
+}
+.sf-link:hover .btn-sf {
+  background: #fff;
+  color: #67809f;
+}
+.card:hover .sf-link {
+  color: #fff;
+}
+
+/* Digital Marketing */
+.dig-link:hover {
+  background-color: #2ecc71;
+  color: #fff;
+}
+.dig-link:hover .icon-bg-dig {
+  background-color: #fff;
+}
+.dig-link:hover .glyphicon-stats {
+  color: #2ecc71;
+}
+.dig-link:hover .btn-dig {
+  background: #fff;
+  color: #2ecc71;
+}
+.card:hover .dig-link {
+  color: #fff;
+}
+
+/* Cyber Security */
+.cy-link:hover {
+  background-color: #f62459;
+  color: #fff;
+}
+.cy-link:hover .icon-bg-cy {
+  background-color: #fff;
+}
+.cy-link:hover .cy-icon {
+  color: #f62459;
+}
+.cy-link:hover .btn-cy {
+  background: #fff;
+  color: #f62459;
+}
+.card:hover .cy-link {
+  color: #fff;
+}
+
+
+/*=================================
+        About
+=================================*/
+h1 {
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.about-section {
+  background-color: #333645;
+  background-image: url(https://www.netmatters.co.uk/assets/images/branded.png);
+  background-size: cover;
+  height: 553px;
+}
+
+.about-wrap {
+  color: #fff;
+  width: 1260px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.text-wrap {
+  width: 600px;
+  font-size: 1.6rem;
+  letter-spacing: 1.5px;
+  margin: 10px;
+}
+
+.text-wrap p {
+  line-height: 30px;
+}
+
+.btn-cult {
+  background-color: #fff;
+  width: 170px;
+  height: 47px;
+  position: relative;
+  left: -7px;
+  display: flex;
+  justify-content: center;
+}
+
+.cult-text {
+  color: #333645;
+  position: relative;
+  top: -4px;
+  font-size: 16px;
+  letter-spacing: 1px;
+
+}
+
+.cult-arrow {
+  color: #333645;
+  position: relative;
+  top: 2px;
+  padding: 2px;
+  font-size: 24px;
+}
+
+a .btn-cult {
+  color: #333645;
+}
+
+.about-section a:hover {
+  background-color: #e2e2e2;
+  text-decoration: none;
+}
+
+
+
+/*=================================
+        Latest
+=================================*/
+
+
+
+
+.lat-news a, .lat-news a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.latest-bg {
+  width: 100%;
+  box-shadow: 0 10px 25px 6px #f2f2f2;
+}
+
+.latest-bar {
+  height: 104px;
+  width: 1260px;
+  margin: 0 auto;
+  text-transform: uppercase;
+  font-size: 1.9rem;
+}
+
+.bar-title-wrap {
+  position: relative;
+  top: 42px;
+  margin: 10px;
+}
+
+.latest-bar .line {
+  margin-top: 30px;
+  width: 70px;
+  height: 5px;
+}
+
+.lat-news-wrap {
+  height: 683px;
+  max-width: 100%;
+  box-shadow: 0 10px 25px 6px #f2f2f2;
+  display: flex;
+  flex-direction: row;
+}
+
+.lat-news {
+  width: 1260px;
+  margin: auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+
+
+#card-container-1{
+  position: relative;
+}
+
+#card-container-1>.news-btn{
+  top: 20px;
+}
+
+#overlay-container-1{
+  position: relative;
+  height: 25px;
+  display: inline-block;
+  right: -266px;
+  top: -28px;
+}
+
+#overlay-container-1:hover>.news-overlay{
+  display: block;
+}
+
+
+
+
+.news-btn {
+  width: 60px;
+  height: 25px;
+  padding-top: 3px;
+  color: #fff;
+  background-color: #926fb1;
+  text-transform: uppercase;
+  text-align: center;
+  top: 81px;
+  left: 58px;
+  z-index: 15;
+  position: relative;
+}
+
+.news-btn:hover {
+  text-decoration: underline;
+}
+
+.news-text {
+  margin-top: 20px;
+}
+
+.news-btn:hover .news-overlay {
+  display: block;
+}
+
+.news-btn:hover .arrow-down-news {
+  opacity: 1;
+}
+
+.news-overlay {
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+  position: absolute;
+  display:none;
+  background-color: #333645;
+  text-align: center;
+  height: 50px;
+  width: 170px;
+  padding: 10px;
+  z-index: 2;
+ 
+}
+
+.arrow-down-news {
+  position: relative;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #333645;
+  top: 0px;
+  left: 70px;
+  opacity: 1;
+}
+
+
+
+.card {
+  width: 370px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-shadow: 0 0 25px 6px #f2f2f2;
+  margin: 15px;
+  line-height: 25px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.image-view {
+  border: 1px solid #ccc;
+  height: 210px;
+  width: auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.image-view img {
+  height: auto;
+  width: 100%;
+  transition-duration: .2s;
+  transform-origin: 50% 50%;
+}
+
+.image-view img:hover {
+  transform: scale(1.1);
+  opacity: 0.6;
+}
+
+
+.card-main {
+  padding: 25px;
+}
+
+.news-title {
+  font-size: 1.6rem;
+  color: #926fb1;
+}
+
+.news-cont {
+  color: #666666;
+  font-size: 1.3rem;
+}
+
+.lat-news .card {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 0;
+}
+
+.card-foot {
+  border-top: 1px solid #ccc;
+  margin: 30px 0 0 0;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-around;
+}
+
+.btn-read:hover {
+  background-color: #79539a;
+  color: #fff;
+}
+
+
+
+.lc {
+  border-radius: 50%;
+}
+
+/*=================================
+        Footer
+=================================*/
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #fff;
+}
+
+footer {
+  line-height: 24px;
+}
+
+.footer-bg {
+  background-color: #333645;
+  width: 100%;
+  height: 309px;
+}
+
+.foot-wrap {
+  color: #fff;
+  width: 1260px;
+  margin: 0 auto;
+  padding-top: 35px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.foot-wrap ul li:nth-child(1) {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 1.45rem;
+}
+
+.foot-wrap ul li {
+  font-size: 1.30rem;
+  letter-spacing: .01rem;
+}
+
+.social-container {
+  width: 315px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.social-icon-bg {
+  background-color: #262934;
+  height: 60px;
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fab,
+.fa {
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+.fb {
+  margin: 15px;
+  flex: 50%;
+}
+
+.twitter {
+  margin: 15px;
+  flex: 50%;
+}
+
+.linkedin {
+  margin: 15px;
+  flex: 50%;
+}
+
+/*   Social Media Hover states  */
+.fb:hover {
+  background-color: #4867aa;
+}
+
+.twitter:hover {
+  background-color: #1da1f2;
+}
+
+.linkedin:hover {
+  background-color: #0077b5;
+}
+
+.social-container a:hover {
+  text-decoration: none;
+}
+
+/*=================================
+        Clients
+=================================*/
+
+.clients-wrap {
+  width: 1260px;
+  height: 70px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 14px;
+}
+
+.arrow-down {
+  position: relative;
+  width: 0;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-top: 40px solid #333645;
+  bottom: 120px;
+  left: 85px;
+  opacity: 0;
+}
+
+.line-white {
+  width: 25px;
+  height: 3px;
+  left: 75px;
+  display: inline-block;
+  background-color: #fff;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+/* Busseys */
+
+.client-bussey {
+  width: 25%;
+  height: 100px;
+  position: relative;
+}
+
+.bussey-color {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 11;
+}
+
+.client-bussey:hover .bussey-color {
+  display: inline;
+}
+
+.overlay-bus {
+  color: #fff;
+  position: absolute;
+  bottom: 150px;
+  background-color: #333645;
+  text-align: center;
+  height: auto;
+  width: 260px;
+  padding: 10px;
+  display: none;
+}
+
+.client-bussey:hover .overlay-bus {
+  display: block;
+}
+
+.client-bussey:hover .arrow-down {
+  opacity: 1;
+}
+
+.bus-logo {
+  margin-left: 30px;
+}
+
+/* Crane */
+
+.client-crane {
+  width: 25%;
+  height: 100px;
+  position: relative;
+}
+
+.crane-color {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 11;
+}
+
+.client-crane:hover .crane-color {
+  display: inline;
+}
+
+.overlay-crane {
+  color: #fff;
+  position: absolute;
+  bottom: 150px;
+  background-color: #333645;
+  text-align: center;
+  height: auto;
+  width: 260px;
+  padding: 10px;
+  display: none;
+}
+
+.client-crane:hover .overlay-crane {
+  display: block;
+}
+
+.client-crane:hover .arrow-down {
+  opacity: 1;
+}
+
+/* Beat */
+
+.client-beat {
+  width: 25%;
+  height: 100px;
+  position: relative;
+}
+
+.beat-color {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 11;
+}
+
+.client-beat:hover .beat-color {
+  display: inline;
+}
+
+.overlay-beat {
+  color: #fff;
+  position: absolute;
+  bottom: 150px;
+  background-color: #333645;
+  text-align: center;
+  height: auto;
+  width: 260px;
+  padding: 10px;
+  display: none;
+}
+
+.client-beat:hover .overlay-beat {
+  display: block;
+}
+
+.client-beat:hover .arrow-down {
+  opacity: 1;
+}
+
+.beat-logo {
+  margin-left: 85px;
+}
+
+/* Northern Diver */
+
+.client-nd {
+  width: 28%;
+  height: 100px;
+  position: relative;
+}
+
+.nd-color {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 11;
+}
+
+.client-nd:hover .nd-color {
+  display: inline-block;
+}
+
+.overlay-nd {
+  color: #fff;
+  position: absolute;
+  left: 20px;
+  bottom: 150px;
+  background-color: #333645;
+  text-align: center;
+  height: auto;
+  width: 260px;
+  padding: 10px;
+  display: none;
+}
+
+.arrow-down-nd {
+  margin-left: 20px;
+}
+
+.client-nd:hover .overlay-nd {
+  display: block;
+}
+
+.client-nd:hover .arrow-down {
+  opacity: 1;
+}
+
+.nd-logo {
+  margin-right: 170px;
+}
+
+
+/*=================================
+        Accreditations
+=================================*/
+
+.accreditation-wrapper {
+  height: 90px;
+  width: 1260px;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-around;
+}
+
+/* Google Partner */
+
+.google {
+  width: 25%;
+  margin-left: 60px;
+}
+
+/* Microsoft */
+
+.ms {
+  width: 25%;
+  margin-left: 40px;
+}
+
+/* Future 50 */
+
+.acc-50 {
+  width: 15%;
+  position: relative;
+  margin-left: -40px;
+}
+
+.future-50-col {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.acc-50:hover .future-50-col {
+  display: inline;
+}
+
+/* QMS */
+
+.qms {
+  width: 15%;
+  position: relative;
+}
+
+.qms-col {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.qms:hover .qms-col {
+  display: inline;
+}
+
+
+/* Norfolk Carbon Charter */
+
+.ncc {
+  width: 20%;
+  position: relative;
+}
+
+.ncc-col {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.ncc:hover .ncc-col {
+  display: inline;
+}
+
+
+/*=================================
+        Media Queries
+=================================*/
+
+
+/* Break-points: small: 768px
+              medium: 769px
+              large: 992px
+              desktop: 1260px*/
+
+/*=================================
+        Small
+=================================*/
+
+@media screen and (max-width: 768px) {
+  .nav-bg {
+    display: none;
+  }
+
+  .title-wrap {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .support,
+  .contact {
+    display: none;
+  }
+
+ .nm-logo {
+   padding: 10px;
+   max-width: 100%;
+ }
+
+  .min-icon {
+    display: block;
+  }
+
+  header .icon-tel {
+    color: #333645;
+    padding: 0 30px 10px 0;
+  }
+
+  .card-wrap {
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
+ 
+  .web-link,
+  .it-link,
+  .tel-link,
+  .sf-link,
+  .dig-link,
+  .cy-link {
+    width: 90vw;
+  } 
+
+  .btn-web,
+  .btn-it {
+    bottom: 0px;
+}
+
+.btn-tel,
+.btn-sf,
+.btn-dig,
+.btn-cy {
+  bottom: -20px;
+}
+ 
+
+  .text-wrap {
+    width: 90vw;
+    height: auto;
+    margin: 20px;
+  }
+  .about-section {
+    background-color: #333645;
+    background-image: none;
+    height: auto;
+  }
+
+  .btn-cult {
+    position: relative;
+    left: -8px;
+  }
+
+  .lat-news {
+    flex-direction: column;
+  }
+
+  .card {
+    width: 90vw;
+    height: 670px;
+  }
+
+  #overlay-container-1 {
+    right: -565px;
+  }
+
+  .card .image-view {
+    height: 357px;
+  }
+
+  .card-foot {
+    justify-content: flex-start;
+  }
+
+  .author {
+    padding-left: 30px;
+  }
+
+  .clients-wrap {
+    display: none;
+  }
+
+  .accreditation-wrapper {
+    display: none;
+  }
+
+  .foot-wrap {
+    flex-direction: column;
+    width: 95%;
+  }
+
+  .social-icon-bg {
+    min-width: 230px;
+    margin: 10px 0;
+  }
+
+  .lat-news-wrap {
+    height: auto;
+  }
+
+  .image-view {
+    height: 200px;
+  }
+
+  .lat-news {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  
+
+  .footer-bg {
+    height: auto;
+  }
+
+  .foot-wrap {
+    flex-direction: column;
+  }
+
+  .foot-items {
+    margin-top: 20px;
+  }
+
+  .foot-wrap ul li:nth-child(1) {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1.6rem;
+  }
+
+.social-container {
+  flex-direction: row;
+}
+
+
+
+  .fb,
+  .twitter,
+  .linkedin {
+    width: 157px;
+    margin-right: 5px;
+  }
+
+  /* .social-container:nth-last-of-type(1) {
+    margin-right: 5px;
+  }
+
+  .social-container:nth-last-of-type() {
+    margin-left: 5px;
+  } */
+
+}
+
+/*=================================
+        Medium
+=================================*/
+
+@media screen and (min-width: 769px)
+              and (max-width: 991px) {
+
+  .nav-bg {
+    display: none;
+  }
+
+  .title-wrap {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .nm-logo {
+    margin-left: 10px;
+  }
+
+  .min-icon {
+    display: none;
+  }
+
+  .support,
+  .contact {
+    display: none;
+  }
+
+  .card-wrap {
+    width: 750px;
+    margin: 0 auto;
+  }
+
+  .card-wrap a {
+    flex-basis: 290px;
+  }
+
+  .btn-web {
+    bottom: 0px;
+  }
+  
+  .btn-it {
+    bottom: 0px;
+  }
+
+  .btn-tel {
+    bottom: -20px;
+  }
+  
+  .btn-sf {
+    bottom: -20px;
+  }
+  
+  .btn-dig {
+    bottom: -20px;
+  }
+  
+  .btn-cy {
+    bottom: -20px;
+  }
+
+  #card-container-1 .card {
+    width: 355px;
+    height: auto;
+  }
+  
+  
+  
+  .card .image-view {
+    height: 200px;
+  }
+  
+  .card .btn-read {
+    margin-top: 10px;
+  }
+
+  #overlay-container-1 {
+    right: -250px;
+  }
+  
+  .alex {
+    display: none;
+  }
+
+
+  .clients-wrap {
+    width: 100%;
+    margin-left: 0 10px;
+    align-content: space-between; 
+    margin-left: -10px;
+  }
+
+  .client-bussey,
+  .client-crane,
+  .client-beat,
+  .client-nd {
+    transform: scale(.7);
+    
+    margin-left: -10px;
+  }
+
+  .client-crane,
+  .client-beat,
+  .client-nd {
+    margin-left: -70px;
+  }
+
+  .overlay-bus,
+  .overlay-crane,
+  .overlay-beat,
+  .overlay-nd {
+    transform: scale(1.4);
+  }
+
+  .footer-bg {
+    height: 528px;
+  }
+  .foot-wrap {
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .foot-items {
+    flex: 50%;
+    padding: 0 40px 0 30px;
+  }
+
+  .accreditation-wrapper {
+    width: 760px;
+  }
+
+  .accreditation {
+    margin: 0 10px;
+  }
+
+  .google {
+    margin-left: 10px;
+  }
+
+  .ms,
+  .acc-50,
+  .qms,
+  .ncc {
+    transform: scale(.8);
+  }
+}
+
+
+
+
+/*=================================
+        Large
+=================================*/
+
+@media screen and (min-width: 992px)
+              and (max-width: 1259px) {
+
+.title-wrap {
+    width: 924px;
+    justify-content: space-between;
+}
+
+.nm-logo {
+  margin-left: 10px;
+}
+
+.nav-list {
+  margin: auto
+}
+
+.nav-btn {
+  max-width: 154px;
+}
+
+
+.nav-wrap {
+  width: 924px;
+  margin: 0 auto;
+}
+
+.banner ul {
+  width: 924px;
+}
+
+
+
+.card-wrap {
+  width: 970px;
+  margin: 0 auto;
+}
+
+
+
+.card-wrap a {
+  flex-basis: 290px;
+}
+
+.btn-tel {
+  bottom: -20px;
+}
+
+.btn-sf {
+  bottom: -20px;
+}
+
+.btn-dig {
+  bottom: -20px;
+}
+
+.btn-cy {
+  bottom: -45px;
+}
+
+#card-container-1 .card {
+  width: 455px;
+  height: auto;
+}
+
+
+
+.card .image-view {
+  height: 240px;
+}
+
+.card .btn-read {
+  margin-top: 10px;
+}
+
+
+
+#overlay-container-1 {
+  right: -351px;
+}
+
+
+.alex {
+  display: none;
+}
+
+.clients-wrap {
+  width: 100%;
+  margin-left: 0 10px;
+  align-content: space-between; 
+  margin-left: -10px;
+}
+
+.client-bussey,
+.client-crane,
+.client-beat,
+.client-nd {
+  transform: scale(.85);
+  margin-left: -10px;
+}
+
+.overlay-bus,
+.overlay-crane,
+.overlay-beat,
+.overlay-nd {
+  transform: scale(1.2);
+}
+
+.footer-bg {
+  height: 528px;
+}
+.foot-wrap {
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 970px;
+}
+
+.foot-items {
+  flex: 50%;
+  padding-left: 10px;
+}
+
+.social-container {
+  width: 455px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.accreditation-wrapper {
+  width: 100%;
+  margin-left: 0 10px;
+  align-content: space-between; 
+  margin-left: -10px;
+}
+
+.fb,
+.twitter,
+.linkedin {
+  width: 200px;
+  margin: 10px 25px 20px 0;
+}
+
+}
