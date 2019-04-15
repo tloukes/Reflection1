@@ -474,7 +474,7 @@ ul {
 
 .cy-copy {
   color: #fff;
-  position: relative;;
+  position: relative;
   font-size: 20px;
   line-height: 40px;
 }
@@ -1568,6 +1568,13 @@ footer {
   bottom: -20px;
 }
 
+.cy-copy {
+  font-size: 18px;
+}
+
+.img-carousel .btn {
+  margin: 0 50px 0 70px;
+}
 
   .text-wrap {
     width: 90vw;
@@ -1712,6 +1719,7 @@ footer {
   .contact {
     display: none;
   }
+
 
   .card-wrap {
     width: 750px;
