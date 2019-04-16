@@ -1558,12 +1558,16 @@ footer {
   bottom: -20px;
 }
 
-.cy-copy {
-  font-size: 18px;
+  .cy-copy-head {
+    font-size: 34px;
+  }
+
+  .cy-copy {
+    font-size: 14px;
 }
 
-.img-carousel .btn {
-  margin: 0 50px 0 70px;
+  .img-carousel .btn {
+    margin: 0 50px 0 30px;
 }
 
   .text-wrap {
