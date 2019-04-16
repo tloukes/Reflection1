@@ -1542,7 +1542,25 @@ footer {
     flex-wrap: nowrap;
   }
 
+  #card-container-1 {
+    position: relative;
+    margin: auto;
+}
+#overlay-container-1 {
+    position: absolute;
+    height: 25px;
+    display: inline-block;
+    right: 96px;
+    top: -73px;
+}
 
+.news-btn {
+    left: 93px;
+}
+
+.arrow-down-news {
+    left: 103px;
+}
 
   .web-link,
   .it-link,
@@ -1600,11 +1618,10 @@ footer {
   .card {
     width: 90vw;
     height: 670px;
+    margin: 0;
   }
 
-  #overlay-container-1 {
-    right: -565px;
-  }
+
 
   /* .card .image-view {
     height: 357px;
