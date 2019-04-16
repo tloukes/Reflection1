@@ -474,7 +474,7 @@ ul {
 
 .cy-copy {
   color: #fff;
-  position: relative;;
+  position: relative;
   font-size: 20px;
   line-height: 40px;
 }
@@ -1002,7 +1002,7 @@ a .btn-cult {
   width: 170px;
   padding: 10px;
   z-index: 2;
- 
+
 }
 
 .arrow-down-news {
@@ -1081,6 +1081,10 @@ a .btn-cult {
   flex-direction: row;
   align-items: baseline;
   justify-content: space-around;
+}
+
+#card-container-1 > div.card > div.card-main > a:nth-child(3) > div {
+  padding-top: 14px;
 }
 
 .btn-read:hover {
@@ -1542,7 +1546,7 @@ footer {
     justify-content: center;
     flex-wrap: nowrap;
   }
- 
+
   .web-link,
   .it-link,
   .tel-link,
@@ -1550,7 +1554,7 @@ footer {
   .dig-link,
   .cy-link {
     width: 90vw;
-  } 
+  }
 
   .btn-web,
   .btn-it {
@@ -1563,7 +1567,14 @@ footer {
 .btn-cy {
   bottom: -20px;
 }
- 
+
+.cy-copy {
+  font-size: 18px;
+}
+
+.img-carousel .btn {
+  margin: 0 50px 0 70px;
+}
 
   .text-wrap {
     width: 90vw;
@@ -1637,7 +1648,7 @@ footer {
     justify-content: center;
   }
 
-  
+
 
   .footer-bg {
     height: auto;
@@ -1709,6 +1720,7 @@ footer {
     display: none;
   }
 
+
   .card-wrap {
     width: 750px;
     margin: 0 auto;
@@ -1721,7 +1733,7 @@ footer {
   .btn-web {
     bottom: 0px;
   }
-  
+
   .btn-it {
     bottom: 0px;
   }
@@ -1729,15 +1741,15 @@ footer {
   .btn-tel {
     bottom: -20px;
   }
-  
+
   .btn-sf {
     bottom: -20px;
   }
-  
+
   .btn-dig {
     bottom: -20px;
   }
-  
+
   .btn-cy {
     bottom: -20px;
   }
@@ -1746,13 +1758,13 @@ footer {
     width: 355px;
     height: auto;
   }
-  
-  
-  
+
+
+
   .card .image-view {
     height: 200px;
   }
-  
+
   .card .btn-read {
     margin-top: 10px;
   }
@@ -1760,7 +1772,7 @@ footer {
   #overlay-container-1 {
     right: -250px;
   }
-  
+
   .alex {
     display: none;
   }
@@ -1769,7 +1781,7 @@ footer {
   .clients-wrap {
     width: 100%;
     margin-left: 0 10px;
-    align-content: space-between; 
+    align-content: space-between;
     margin-left: -10px;
   }
 
@@ -1778,7 +1790,7 @@ footer {
   .client-beat,
   .client-nd {
     transform: scale(.7);
-    
+
     margin-left: -10px;
   }
 
@@ -1924,7 +1936,7 @@ footer {
 .clients-wrap {
   width: 100%;
   margin-left: 0 10px;
-  align-content: space-between; 
+  align-content: space-between;
   margin-left: -10px;
 }
 
@@ -1966,7 +1978,7 @@ footer {
 .accreditation-wrapper {
   width: 100%;
   margin-left: 0 10px;
-  align-content: space-between; 
+  align-content: space-between;
   margin-left: -10px;
 }
 
