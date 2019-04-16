@@ -448,9 +448,8 @@ ul {
   width: 100%;
   background-color: grey;
   /* background: url(https://placeimg.com/640/640/tech) no-repeat center / cover; */
-  background-image:
-  linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(76, 76, 76, 0.73)),
-  url(https://placeimg.com/640/640/tech);
+  background: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(76, 76, 76, 0.73)),
+  url(https://placeimg.com/640/640/tech) no-repeat center/cover;
 }
 
 .img-carousel-wrapper {
@@ -1551,7 +1550,7 @@ footer {
     height: 25px;
     display: inline-block;
     right: 96px;
-    top: -73px;
+    top: -52px;
 }
 
 .news-btn {
