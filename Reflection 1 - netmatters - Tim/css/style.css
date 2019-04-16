@@ -1749,7 +1749,9 @@ footer {
     height: auto;
   }
 
-
+.text-wrap {
+  padding-left: 30px;
+}
 
   .card .image-view {
     height: 200px;
@@ -1912,7 +1914,9 @@ footer {
   margin-top: 10px;
 }
 
-
+.text-wrap {
+  margin-left: 40px;
+}
 
 #overlay-container-1 {
   right: -351px;
