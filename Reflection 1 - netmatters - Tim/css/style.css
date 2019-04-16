@@ -527,20 +527,8 @@ ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 30px 10px 40px;
+  padding: 30px 10px 40px 5px;
 }
-
-/* .card-wrap-bottom {
-  width: 80%;
-  max-width: 1260px;
-  margin:auto;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-around;
-  padding: 10px 10px 40px;
-  flex: 1 1 auto;
-} */
 
 
 .cardlink {
@@ -1546,6 +1534,8 @@ footer {
     justify-content: center;
     flex-wrap: nowrap;
   }
+
+
 
   .web-link,
   .it-link,
